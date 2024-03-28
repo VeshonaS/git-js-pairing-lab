@@ -26,7 +26,29 @@ const untilNum = (int) => {
     }
 }
 //untilNum()
-const add = (num1 , num2 ) => {
-return num1 + num2
+
+const multiply = (num1, num2) => {
+    return num1 * num2
 }
-console.log(add(4 , 5))
+//console.log(multiply(4, 5))
+
+
+
+const add = (num1, num2) => {
+    if (num1 === num2) {
+        return (num1 + num2) * 3
+    } else {
+        return num1 + num2
+    }
+}
+//console.log(add(5, 5))
+
+const isNegative = (num) => {
+    if (num < 0) {
+        return true
+    } else {
+        return false
+    }
+}
+
+//console.log(isNegative(1))
