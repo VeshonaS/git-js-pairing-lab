@@ -34,6 +34,8 @@ const multiply = (num1, num2) => {
 
 
 
+
+
 const add = (num1, num2) => {
     if (num1 === num2) {
         return (num1 + num2) * 3
@@ -52,3 +54,31 @@ const isNegative = (num) => {
 }
 
 //console.log(isNegative(1))
+const triangleArea = (height , base )=>{
+return (height * base ) / 2
+
+}
+// console.log (triangleArea(6 ,8))
+
+const betweenTwentyAndFourty = (num) =>{
+if (num > 20 && num < 40) {
+    return true 
+} else {
+    return false 
+}
+
+}
+
+//console.log(betweenTwentyAndFourty( 300))
+
+const largest = (num1 , num2 , num3 ) => {
+if (num1 > num2 && num2 > num3 ){
+    return num1
+} else if (num2 > num1 && num2 > num3){
+    return num2 
+} else if (num3 > num1 && num3 > num2 ) {
+    return  num3
+}
+}
+
+console.log(largest(5 , 9 , 4))
